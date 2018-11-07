@@ -1,0 +1,24 @@
+1. Inicio
+2. matematicas (3),d[0-n]
+3. literatura (3),d[0-n]
+4. promedio1, d[0-n]
+5. promedio2, d[0-n]
+6. matematica <- [20,15,17.5] 
+7. literatuta <- [10,20,19.5]
+8. suma1,d[0-n]
+9. suma2,d[0-n]
+10. contador <- 0
+11. mientras contador < 3 entonces
+12.     suma1 <- matematicas(contador)
+13.     suma2 <- literatura(contador)
+14.     contador <- contador+1
+15. FinMientras
+16. promedio1 <- suma1/3
+17. promedio2 <- suma2/3
+18. si promedio1 > promedio2 entonces
+19.      <<"Mejor promedio es Matematica"
+20. CasoContrario
+21.      <<"Mejor promedio es Literartura"
+22. FinSi
+23. Fin
+ 
